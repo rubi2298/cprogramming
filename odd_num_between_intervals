@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+int a=1,b=6,i;
+printf("print odd numbers in given range a and b");
+for(i=a;i<=b;i++)
+{
+	if(i%2==1)
+printf("%d",i);
+}
+
+}
